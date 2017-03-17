@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Path to executing script
+SCRIPT=$(readlink -e $0)
+
+# Directory housing script
+SCRIPTPATH=$(dirname $SCRIPT)
+
+. $SCRIPTPATH/helpers
+
+exposeResult "Runnable step ran" 0 "true"

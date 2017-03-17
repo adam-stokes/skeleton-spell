@@ -1,0 +1,4 @@
+title: A viewable step
+description: |
+  A viewable step shown to user
+viewable: True
